@@ -3,12 +3,13 @@ package ru.job4j.condition;
 public class Max {
 
     public static int max(int left, int right) {
-
-        return left > right ? left : right;
+        boolean condition = left > right;
+        int result = condition ? left : right;
+        return result;   // можно сократить эти три строчеи и написать   return left > right ? left : right;
 
     }
 
     public static void main(String[] args) {
-        System.out.println(Max.max(5, 4));
+        System.out.println(Max.max(6, 6));
     }
 }
