@@ -3,11 +3,11 @@ package ru.job4j.loop;
 public class Counter {
 
     public static int sum(int a, int b) {
-        int result = 0;
+        int sum = 0;
         for (int i = a; i < b; i++) {
-           result += 1;
+           sum += 1;
         }
-        return result;
+        return sum;
     }
 
     public static void main(String[] args) {
