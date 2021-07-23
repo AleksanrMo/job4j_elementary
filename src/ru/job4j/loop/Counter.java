@@ -2,9 +2,9 @@ package ru.job4j.loop;
 
 public class Counter {
 
-    public static int sum(int a, int b) {
+    public static int sum(int start, int finish) {
         int sum = 0;
-        for (int i = a; i <= b; i++) {
+        for (int i = start; i <= finish; i++) {
 
            sum = sum + i;
         }
@@ -16,5 +16,6 @@ public class Counter {
         System.out.println(sum(3, 8));
         System.out.println(sum(1, 1));
     }
+
 }
 
