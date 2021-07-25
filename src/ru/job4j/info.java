@@ -1,6 +1,6 @@
 package ru.job4j;
 
-public class info { // класс написан с маленькой буквы
+public class info { //  класс написан с маленькой буквы
 
     public static void main(String[] args) {
 
