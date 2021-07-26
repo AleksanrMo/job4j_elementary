@@ -9,6 +9,8 @@ public class ArrayChar {
                 result = true;
                 if (i == pref.length - 1) {
                     break;
+                } else {
+                    result = false;
                 }
             }
 
