@@ -6,7 +6,6 @@ import org.junit.Test;
 public class FindLoopTest {
     @Test
     public void whenArrayHas5Then0() {
-
         int[] data = {5, 4, 3, 2};
         int el = 5;
         int result = FindLoop.indexOf(data, el);
@@ -16,7 +15,6 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas15Then3() {
-
         int[] data = {3, 2, 7, 15};
         int el = 15;
         int result = FindLoop.indexOf(data, el);
@@ -26,7 +24,6 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas15Then6() {
-
         int[] data = {3, 2, 15, 2};
         int el = 15;
         int result = FindLoop.indexOf(data, el);
