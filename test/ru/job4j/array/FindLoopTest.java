@@ -27,7 +27,16 @@ public class FindLoopTest {
         int[] data = {3, 2, 15, 2};
         int el = 15;
         int result = FindLoop.indexOf(data, el);
-        int expected = 6;
+        int expected = 2;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenArrayHas15ThenMinusOne() {
+        int[] data = {3, 2, 2, 2};
+        int el = 15;
+        int result = FindLoop.indexOf(data, el);
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }
