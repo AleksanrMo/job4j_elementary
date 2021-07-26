@@ -12,7 +12,6 @@ public class ArrayChar {
             if (i == pref.length - 1) {
                 break;
             }
-
         }
         return result;
     }
