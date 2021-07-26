@@ -9,6 +9,7 @@ public class Turn {
             int temp = array[i];
             array[i] = array[array.length - sum];
             array[array.length - sum] = temp;
+
         }
         return array;
     }
