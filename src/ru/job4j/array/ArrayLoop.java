@@ -8,5 +8,10 @@ public class ArrayLoop {
             numbers[i] = i * 2 + 3;
             System.out.println(numbers[i]);
         }
+        System.out.println();
+        for (int number: numbers) {
+            System.out.println(number);
+
+        }
     }
 }
