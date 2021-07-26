@@ -18,6 +18,5 @@ public class TurnTest {
         int[] result = Turn.back(input);
         int[] expected = new int[] {2, 6, 1, 4, 5};
         Assert.assertArrayEquals(expected, result);
-
     }
 }
