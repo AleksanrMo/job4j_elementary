@@ -13,7 +13,7 @@ public class FindLoop {
         return rsl;
        }
 
-    public static int indexOf(int[] data, int el, int start, int finish) {
+    public static int indexOf1(int[] data, int el, int start, int finish) {
         int rst = -1;
         for (int i = start; i < finish; i++) {
             if (data[i] == el) {
