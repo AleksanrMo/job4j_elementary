@@ -33,10 +33,10 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas15ThenMinusOne() {
-        int[] data = {3, 2, 2, 2};
+        int[] data = {3, 2, 2, 15};
         int el = 15;
         int result = FindLoop.indexOf(data, el);
-        int expected = -1;
+        int expected = 3;
         Assert.assertEquals(expected, result);
     }
 
