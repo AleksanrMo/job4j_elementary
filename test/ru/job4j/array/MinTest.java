@@ -14,9 +14,9 @@ public class MinTest {
 
     @Test
     public void whenLastMin() {
-        int[] array = new int[] {10, 5, 3};
+        int[] array = new int[] {1, 5, 3};
         int result = Min.findMin(array);
-        int expected = 3;
+        int expected = 1;
         Assert.assertEquals(expected, result);
     }
 
