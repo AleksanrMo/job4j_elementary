@@ -31,8 +31,7 @@ public class PointTest {
         double expected =  2;
         Assert.assertEquals(expected, out, 0.01);
     }
-
-   /* @Test
+    /* @Test
     public void   when00to202then2() {
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
