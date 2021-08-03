@@ -25,16 +25,16 @@ public class Point {
      }
 
     public double distance3d(Point that) {
+        distance(that);
         return Math.sqrt(Math.pow((this.x - that.x), 2) + Math.pow((this.y - that.y), 2) +  Math.pow((this.z - that.z), 2));
     }
 
     public static void main(String[] args) {
-    Point a = new Point(0, 0);
-    Point b = new Point(0, 2);
-    Point z = new Point(3, 0);
+    Point a = new Point(0, 0, 3);
+    Point b = new Point(0, 2, 0);
     double dist = a.distance(b);
     System.out.println(dist);
-    double dist3d = b.distance3d(z);
+    double dist3d = a.distance3d(b);
     System.out.println(dist3d);
     }
 }
