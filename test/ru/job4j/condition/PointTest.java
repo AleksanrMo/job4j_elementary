@@ -32,7 +32,7 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test
+   /* @Test
     public void   when00to202then2() {
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
@@ -40,6 +40,6 @@ public class PointTest {
         double out = a.distance3d(z);
         double expected =  3.6;
         Assert.assertEquals(expected, out, 0.01);
-    }
+    }*/
 
 }
